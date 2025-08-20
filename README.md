@@ -1,12 +1,12 @@
 # Advanced Web Research Agent with LangGraph and Firecrawl
 
-This project is an advanced AI agent designed for comprehensive web research and analysis, built by following the "Python Advanced AI Agent Tutorial" by Tech with Tim. The agent leverages a stateful, cyclical graph structure using LangGraph to perform robust, multi-step research tasks that mimic a human's research process.
+This project is an advanced AI agent designed for comprehensive web research and analysis. The agent leverages a stateful, cyclical graph structure using LangGraph to perform robust, multi-step research tasks that mimic a human's research process.
 
 ## 🚀 Overview
 
 The core of this project is a sophisticated agent that can take a research query, break it down, browse the web for relevant information, and synthesize the findings into a coherent report. Unlike simple linear agents, this implementation uses LangGraph to create a more dynamic and resilient workflow, allowing the agent to self-correct, reflect on its findings, and decide the best next action.
 
-The primary goal of my implementation was to create an agent that can do some shit for you guys like looking for a speficic person linkedin profile or browsing website for an character or whatever you want. But above all, you can have your own personal assistant. All you need to do is create .env file and put API keys from either Google gemini or OpenAi or whaterver provider you want. And your agent is good to go.
+The primary goal of my implementation was to create an agent that can do some shit for you guys like looking for a specific person's linkedin profile or browsing website for an character or whatever you want. But above all, you can have your own personal assistant. All you need to do is create .env file and put API keys from either Google gemini or OpenAi or whaterver provider you want. And your agent is good to go.
 
 ## ✨ Features
 
@@ -73,6 +73,7 @@ If you don't have one, create a file named .gitignore and add the following line
 .env
 
 ### 6.  Just type python main.py and your agent is up and running the terminal. I am working on giving it a ui. 
+
 
 
 
