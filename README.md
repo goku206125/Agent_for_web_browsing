@@ -34,8 +34,8 @@ Follow these steps to get the project up and running on your local machine.
 ### 1. Clone the Repository
 
 
-git clone https://github.com/[your-username]/[your-repository-name].git
-cd [your-repository-name]
+git clone https://github.com/goku206125/Agent_for_web_browsing.git
+
 
 ### 2. Set Up a Conda Environment
 
@@ -63,14 +63,16 @@ Add your API keys to the .env file as follows:
 OPENAI_API_KEY="sk-..."
 FIREcrawl_API_KEY="fc-..."
 TAVILY_API_KEY="tvly-..."
+GOOGLE_API_KEY="........."
 
 
-### 5. Please it is very important  Create a .gitignore file
+### 5. Please it is very important  Create a .gitignore file. It will make sure that you do not post your own api keys to github. 
 
 If you don't have one, create a file named .gitignore and add the following line to it:
 
 .env
 
-### 6.  Just type python main.py and your agent is up and running the terminal
+### 6.  Just type python main.py and your agent is up and running the terminal. I am working on giving it a ui. 
+
 
 
